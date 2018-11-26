@@ -10,7 +10,7 @@ pipelineJob(project_name){
 		}
 
 		cpsScm{
-			csm{
+			scm{
 				git{
 					remote {
 						name(repo_name)
